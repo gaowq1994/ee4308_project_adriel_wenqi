@@ -44,9 +44,9 @@ If not present, please install Armadillo using:
 	$ chmod +x project_init_world_1.sh
 	$ ./project_init_world_1.sh
 	```
-or
+	or
 
-	```bash
+	```
 	$ chmod +x project_init_world_2.sh
 	$ ./project_init_world_2.sh
 	```
