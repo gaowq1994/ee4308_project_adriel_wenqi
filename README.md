@@ -6,7 +6,7 @@ The project is part of the assessment in the first half of the course EE4308: Ad
 
 ## Software Tools ##
 --------------------------
-Ubuntu 16.04 (Xenial Xerus) installed
+Ubuntu 16.04 (Xenial Xerus) installed.
 Robot Operating System (ROS) Kinetic Kame distribution installed. 
 Gazebo 7 Simulator and Kobuki Turtlebot (v1.0.6) used.
 
