@@ -28,7 +28,7 @@ Gazebo 7 Simulator and Kobuki Turtlebot (v1.0.6) used.
 	$ git clone https://github.com/gaowq1994/ee4308_project_adriel_wenqi
 	```
 
-4. Inside your catkin workspace, run:
+4. Inside your catkin workspace, run catkin_make:
 	```bash
 	$ cd ~/catkin_ws
 	$ catkin_make
