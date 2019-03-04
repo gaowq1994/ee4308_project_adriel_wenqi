@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+<node pkg="ee4308_project" type="range_finder" name="range_finder">
+</node>
+<node pkg="ee4308_project" type="path_planner" name="path_planner" output="screen">
+</node>
+<node pkg="ee4308_project" type="navigator" name="navigator">
+</node>
+<node pkg="ee4308_project" type="camera_operations" name="camera_operations">
+</node>
+</launch>
