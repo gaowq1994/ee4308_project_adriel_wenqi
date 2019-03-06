@@ -70,6 +70,6 @@ This will launch the turtlebot world in Gazebo Simulator. This may take a while 
 8. Launch the launch file navigate.launch to make the turtlebot navigate towards the goal:
 
 	```bash
-	$ roslaunch ee4308_project navigate.launch 
+	$ roslaunch PRJ-GRP-02 navigate.launch 
 	```
 
