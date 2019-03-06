@@ -9,7 +9,14 @@ The project is part of the assessment in the first half of the course EE4308: Ad
 --------------------------
 Ubuntu 16.04 (Xenial Xerus) installed.  
 Robot Operating System (ROS) Kinetic Kame distribution installed.  
-Gazebo 7 Simulator and Kobuki Turtlebot (v1.0.6) used.
+Gazebo 7 Simulator and Kobuki Turtlebot (v1.0.6) used.  
+
+Note: Our implementation requires Armadillo, the C++ linear algebra library to be installed.  
+If not present, please install Armadillo using:
+	```
+	$ sudo apt-get install libarmadillo-dev
+	```
+	
 
 
 ## How to run the code ## 
@@ -34,12 +41,7 @@ Gazebo 7 Simulator and Kobuki Turtlebot (v1.0.6) used.
 	$ cd ~/catkin_ws
 	$ catkin_make
 	```
-Note: Our implementation requires Armadillo, the C++ linear algebra library to be installed.  
-If not present, please install Armadillo using:
-	```
-	$ sudo apt-get install libarmadillo-dev
-	```
-	
+
 5. Run project\_init\_world_1.sh or project\_init\_world_2.sh to lauch either test world 1 or test world 2:
 	```bash
 	$ cd ~/catkin_ws/src/ee4308_project_adriel_wenqi/
