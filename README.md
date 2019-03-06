@@ -48,7 +48,7 @@ If not present, please install Armadillo using:
 	```
 	or
 
-	```
+	```bash
 	$ cd ~/catkin_ws/src/ee4308_project_adriel_wenqi/
 	$ chmod +x project_init_world_2.sh
 	$ ./project_init_world_2.sh
