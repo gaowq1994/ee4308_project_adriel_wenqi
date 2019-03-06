@@ -14,7 +14,7 @@ Gazebo 7 Simulator and Kobuki Turtlebot (v1.0.6) used.
 __Note: Our implementation requires Armadillo, the C++ linear algebra library to be installed.__  
 If not present, please install Armadillo using:
 	```
-	sudo apt-get install libarmadillo-dev 
+	sudo apt-get install libarmadillo-dev
 	```
 	
 
@@ -23,37 +23,37 @@ If not present, please install Armadillo using:
 -------------------------------
 1. Create a catkin workspace (if not already created):
 	```bash
-	$ mkdir -p ~/catkin_ws/src
+	mkdir -p ~/catkin_ws/src
 	```
 
 2. Enter your source folder inside your catkin workspace:
 	```bash
-	$ cd ~/catkin_ws/src
+	cd ~/catkin_ws/src
 	```
 
 3. Clone the repository: 
 	```bash
-	$ git clone https://github.com/gaowq1994/ee4308_project_adriel_wenqi prj-grp-02
+	git clone https://github.com/gaowq1994/ee4308_project_adriel_wenqi prj-grp-02
 	```
 
 4. Inside your catkin workspace, run catkin_make:
 	```bash
-	$ cd ~/catkin_ws
-	$ catkin_make
+	cd ~/catkin_ws
+	catkin_make
 	```
 
 5. Run project\_init\_world_1.sh or project\_init\_world_2.sh to lauch either test world 1 or test world 2:
 	```bash
-	$ cd ~/catkin_ws/src/prj-grp-02
-	$ chmod +x project_init_world_1.sh
-	$ ./project_init_world_1.sh
+	cd ~/catkin_ws/src/prj-grp-02
+	chmod +x project_init_world_1.sh
+	./project_init_world_1.sh
 	```
 	or
 
 	```bash
-	$ cd ~/catkin_ws/src/prj-grp-02
-	$ chmod +x project_init_world_2.sh
-	$ ./project_init_world_2.sh
+	cd ~/catkin_ws/src/prj-grp-02
+	chmod +x project_init_world_2.sh
+	./project_init_world_2.sh
 	```
 
 This will launch the turtlebot world in Gazebo Simulator. This may take a while to load on the first launch.
@@ -63,13 +63,13 @@ This will launch the turtlebot world in Gazebo Simulator. This may take a while 
 7. Before continuing source your new setup.*sh file:
 
 	```bash
-	$ cd ~/catkin_ws
-	$ source devel/setup.bash
+	cd ~/catkin_ws
+	source devel/setup.bash
 	```
 
 8. Launch the launch file navigate.launch to make the turtlebot navigate towards the goal:
 
 	```bash
-	$ roslaunch prj-grp-02 navigate.launch 
+	roslaunch prj-grp-02 navigate.launch 
 	```
 
