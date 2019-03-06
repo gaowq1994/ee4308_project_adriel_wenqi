@@ -1,5 +1,5 @@
 # EE4308 - Advances in Intelligent Systems and Robotics - Part 1 Project - NUS 2019 #
---------------------------
+=========================
 Turtlebot simulation in Gazebo. The aim of this project is to navigate the turtlebot autonomously from start position (x,y) = (0,0) to goal position (x,y) = (4,4) in a 9m x 9m map with unknown maze conifguration.
 
 The project is part of the assessment in the first half of the course EE4308: Advances in Intelligent Systems and Robotics taught at the National University of Singapore (NUS) during Semester 2 of AY2018/19. 
@@ -11,7 +11,7 @@ Ubuntu 16.04 (Xenial Xerus) installed.
 Robot Operating System (ROS) Kinetic Kame distribution installed.  
 Gazebo 7 Simulator and Kobuki Turtlebot (v1.0.6) used.  
 
-Note: Our implementation requires Armadillo, the C++ linear algebra library to be installed.  
+__Note: Our implementation requires Armadillo, the C++ linear algebra library to be installed.__  
 If not present, please install Armadillo using:
 	```
 	$ sudo apt-get install libarmadillo-dev
