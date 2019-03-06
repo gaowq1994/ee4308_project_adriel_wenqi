@@ -44,14 +44,14 @@ If not present, please install Armadillo using:
 
 5. Run project\_init\_world_1.sh or project\_init\_world_2.sh to lauch either test world 1 or test world 2:
 	```bash
-	$ cd ~/catkin_ws/src/ee4308_project_adriel_wenqi/
+	$ cd ~/catkin_ws/src/PRJ-GRP-02
 	$ chmod +x project_init_world_1.sh
 	$ ./project_init_world_1.sh
 	```
 	or
 
 	```bash
-	$ cd ~/catkin_ws/src/ee4308_project_adriel_wenqi/
+	$ cd ~/catkin_ws/src/PRJ-GRP-02
 	$ chmod +x project_init_world_2.sh
 	$ ./project_init_world_2.sh
 	```
