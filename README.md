@@ -14,7 +14,7 @@ Gazebo 7 Simulator and Kobuki Turtlebot (v1.0.6) used.
 __Note: Our implementation requires Armadillo, the C++ linear algebra library to be installed.__  
 If not present, please install Armadillo using:
 	```
-	$ sudo apt-get install libarmadillo-dev
+	sudo apt-get install libarmadillo-dev 
 	```
 	
 
