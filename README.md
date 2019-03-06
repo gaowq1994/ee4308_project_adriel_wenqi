@@ -60,7 +60,7 @@ This will launch the turtlebot world in Gazebo Simulator. This may take a while 
 
 6. Open a new terminal.
 
-7. Before continuing source your new setup.*sh file:
+7. Before continuing, source your new setup.*sh file:
 
 	```bash
 	cd ~/catkin_ws
