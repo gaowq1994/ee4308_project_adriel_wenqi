@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <package>
-  <name>ee4308_project</name>
+  <name>prj-grp-02</name>
   <version>0.0.0</version>
-  <description>The ee4308_project package</description>
+  <description>The prj-grp package</description>
 
-  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
   <maintainer email="adriel_wenqi@todo.todo">adriel_wenqi</maintainer>
 
   <license>TODO</license>
