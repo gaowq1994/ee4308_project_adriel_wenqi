@@ -1,6 +1,7 @@
 # EE4308 - Advances in Intelligent Systems and Robotics - Part 1 Project - NUS 2019 #
 --------------------------
-Turtlebot simulation in Gazebo. The aim of this project is to navigate the turtlebot autonomously from position (x,y) = (0,0) to (x,y) = (4,4) in a previously unknown 9m x 9m map.  
+Turtlebot simulation in Gazebo. The aim of this project is to navigate the turtlebot autonomously from start position (x,y) = (0,0) to goal position (x,y) = (4,4) in a 9m x 9m map with unknown maze conifguration.
+
 The project is part of the assessment in the first half of the course EE4308: Advances in Intelligent Systems and Robotics taught at the National University of Singapore (NUS) during Semester 2 of AY2018/19. 
 
 
@@ -41,12 +42,14 @@ If not present, please install Armadillo using:
 	
 5. Run project\_init\_world_1.sh or project\_init\_world_2.sh to lauch either test world 1 or test world 2:
 	```bash
+	$ cd ~/catkin_ws/src/ee4308_project_adriel_wenqi/
 	$ chmod +x project_init_world_1.sh
 	$ ./project_init_world_1.sh
 	```
 	or
 
 	```
+	$ cd ~/catkin_ws/src/ee4308_project_adriel_wenqi/
 	$ chmod +x project_init_world_2.sh
 	$ ./project_init_world_2.sh
 	```
