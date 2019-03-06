@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <launch>
-<node pkg="PRJ-GRP-02" type="range_finder" name="range_finder">
+<node pkg="prj-grp-02" type="range_finder" name="range_finder">
 </node>
-<node pkg="PRJ-GRP-02" type="path_planner" name="path_planner" output="screen">
+<node pkg="prj-grp-02" type="path_planner" name="path_planner" output="screen">
 </node>
-<node pkg="PRJ-GRP-02" type="navigator" name="navigator">
+<node pkg="prj-grp-02" type="navigator" name="navigator">
 </node>
-<node pkg="PRJ-GRP-02" type="camera_operations" name="camera_operations">
+<node pkg="prj-grp-02" type="camera_operations" name="camera_operations">
 </node>
 </launch>
