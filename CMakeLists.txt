@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(ee4308_project)
+project(PRJ-GRP-02)
 
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED COMPONENTS
