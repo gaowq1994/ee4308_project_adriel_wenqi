@@ -33,7 +33,7 @@ If not present, please install Armadillo using:
 
 3. Clone the repository: 
 	```bash
-	$ git clone https://github.com/gaowq1994/ee4308_project_adriel_wenqi PRJ-GRP-02
+	$ git clone https://github.com/gaowq1994/ee4308_project_adriel_wenqi prj-grp-02
 	```
 
 4. Inside your catkin workspace, run catkin_make:
@@ -44,14 +44,14 @@ If not present, please install Armadillo using:
 
 5. Run project\_init\_world_1.sh or project\_init\_world_2.sh to lauch either test world 1 or test world 2:
 	```bash
-	$ cd ~/catkin_ws/src/PRJ-GRP-02
+	$ cd ~/catkin_ws/src/prj-grp-02
 	$ chmod +x project_init_world_1.sh
 	$ ./project_init_world_1.sh
 	```
 	or
 
 	```bash
-	$ cd ~/catkin_ws/src/PRJ-GRP-02
+	$ cd ~/catkin_ws/src/prj-grp-02
 	$ chmod +x project_init_world_2.sh
 	$ ./project_init_world_2.sh
 	```
@@ -70,6 +70,6 @@ This will launch the turtlebot world in Gazebo Simulator. This may take a while 
 8. Launch the launch file navigate.launch to make the turtlebot navigate towards the goal:
 
 	```bash
-	$ roslaunch PRJ-GRP-02 navigate.launch 
+	$ roslaunch prj-grp-02 navigate.launch 
 	```
 
