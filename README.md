@@ -33,7 +33,7 @@ If not present, please install Armadillo using:
 
 3. Clone the repository: 
 	```bash
-	git clone https://github.com/gaowq1994/ee4308_project_adriel_wenqi prj-grp-02
+	git clone https://github.com/gaowq1994/ee4308_turtlebot_navigation prj-grp-02
 	```
 
 4. Inside your catkin workspace, run catkin_make:
